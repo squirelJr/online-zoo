@@ -1,0 +1,449 @@
+body{
+    width: 1600px;
+    margin: 0 auto;
+box-sizing: border-box;
+position: relative;
+overflow-x: scroll;
+box-sizing: border-box;
+
+}
+.watch{
+  height: 390px;
+
+  background-image: url(../../assets/images/panda_bgdonate.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.nav{
+    height: 80px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-left: 227px;
+    padding-right: 220px;
+    box-sizing: border-box; 
+   
+    
+}
+.nav a{
+    color: white ;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    
+}
+.header{
+    position:  fixed;
+  width: 1600px;
+  z-index: 100;
+    
+ 
+}
+header li{
+    display: flex;
+    align-items: center;
+}
+.desinedBy{
+Width:105px;
+Height:22px;
+}
+.petStoryA{
+    border: WHITE solid 2px;
+}
+.navList{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+    list-style: none;
+    width: 60%;
+
+}
+.buttonWo{
+width:30%;
+height: 70%;
+    position: absolute;
+    right:219px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-around;
+    top:166px;
+    left: 880px;
+}
+.PinkSection{
+    height:1482px;
+    width:100%;
+    background:linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 220px 180px 220px;
+    box-sizing: border-box;
+}
+.topText{
+    color:white;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 130%;
+margin:0px;
+}
+.topArticle{
+    color:white;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+}
+.donationInf{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 130%;
+color: #FE9013;
+}
+.feedFriend{
+    height: 964px;
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    padding: 40px 92px 62px 92px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign{
+    display: block;
+    position: relative;
+    bottom:40px;
+        bottom: 70px;
+    right: -123px;
+    color: #929699
+}
+.pickFriend{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 120%;
+text-align: center;
+color: #FE9013;
+}
+.feedFriendarticle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+  color: #333B41;
+    
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    
+}
+.num4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0px;
+
+}
+.Text4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #333B41;
+}
+.panda4{
+    width:284px;
+    height: 246px;
+    margin-bottom: 34px;
+
+}
+.xX{
+   font-size: 2em;
+   color:#000000; 
+}
+.pandaDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 224px 0px 166px;
+
+}
+.slider{
+    width: 976px;
+    height: 27px;
+    background-color:  #404950;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.range{
+   
+    height: 2px;
+    background-color:#72828E ;
+    width: 915px;
+    z-index: 100;
+  
+    
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:  #FFEE2E;
+    
+}
+.dolar{
+margin:0px;
+}
+.dolars{
+    display: flex;
+    flex-direction: row;
+    width: 915px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -30px;
+   
+}
+.amount{
+    width:268px;
+    height:54px;
+    border: 1px #929699 solid;
+    border-radius: 2px;
+    margin-top: 40px;
+    background-color:rgba(255, 255, 255, 0.52); ;
+}
+
+.dotWrap{
+    display: flex;
+    flex-direction: row;
+    width: 915px;
+    justify-content: space-between;
+    position: absolute;
+    top: calc(50%-5px);
+}
+.inputCheckbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    
+}
+.checkbox{
+border-radius: 50%;
+width: 16px;
+height: 16px;
+}
+.footer{
+    width:1600px;
+    height:443px;
+    background-color:  #111115;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 220px;
+    box-sizing: border-box;
+
+}
+.petStoryb{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 19.0145px;
+line-height: 120%;
+
+text-align: center;
+
+color: #FFFFFF;
+
+border: 1.18841px solid #FFFFFF;
+}
+.subscribeNews{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+color: #FFFFFF;
+}
+#email{
+    width: 211px;
+height: 22px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #BDBDBD;
+}
+.logo{
+  width:73px ;
+  height: 45px;  
+  border: 1px solid white;
+  text-align: center;
+}
+.footerBtn{
+    border-radius: 0px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.Ficon{
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #6a6a6c ;
+}
+.Ficon:hover{
+    cursor: pointer;
+    background-color: #333B41;
+}
+.footerLinks{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    
+}
+.footerLinks a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #DADADA;
+}
+a{
+    text-decoration: none;
+    color: #DADADA;
+    text-transform: capitalize;
+}
+.linkWrap{
+    height: 150px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.SecondColumn{
+    width: 37%;
+    display: flex;
+    align-items: flex-end;
+}
+.footerNav{
+   background-color: unset;
+   margin-bottom: 50px;
+   padding-left: 0px;
+   width: 100%;
+
+}
+.thirdColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.footerDesign{
+    align-self: flex-end !important;
+}
+
+input[type=email]{
+    border: none;
+    background-color: #111115;
+     border: 2px solid #F9804B !important;
+     width: 228px;
+     height: 35px;
+}
+.emailBtn{
+    width: 129px;
+    height: 44px;
+    background-color:#F1F3F2 ;
+    color:#4B9200 ;
+    border-radius: 5px;
+}
+footer h3,footer p{
+    color:#DADADA;
+}
+footer h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+.footerDesign{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+}
+#active{
+    text-decoration: underline;
+    color:#F9804B;
+}
+a:hover{
+    
+  text-decoration: underline;
+  color:#F9804B;
+}
+
+
+.footerBtn, .feedFreidbtn{
+    width:298px;
+    height:54px;
+    background-color: #F9804B;
+    border-radius: 25px;
+    color:white;
+    text-transform: uppercase;
+    border: 0px;
+
+}
+.footerBtn:hover,.feedFreidbtn:hover{
+    cursor: pointer;
+    background-color: #c54b17;
+}
+.textPink{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+
+color: #333B41;
+
+}
+h2,p{
+    margin:0px;
+}
