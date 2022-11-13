@@ -211,6 +211,7 @@ color: #FE9013;
     background-color:#72828E ;
     width: 915px;
     z-index: 100;
+
   
     
 }
@@ -245,8 +246,10 @@ margin:0px;
 .dotWrap{
     display: flex;
     flex-direction: row;
-    width: 915px;
+    width: 905px;
+    padding-right: 10px;
     justify-content: space-between;
+    
     position: absolute;
     top: calc(50%-5px);
 }
@@ -447,3 +450,69 @@ color: #333B41;
 h2,p{
     margin:0px;
 }
+.emailBtn:hover{
+    background-color: #c54b17;
+    color: #E0D8F0;
+    cursor: pointer;
+
+}
+
+.amount_picker {
+    width: 976px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #404950;
+    border-radius: 2px;
+    z-index: -1;
+    
+}
+.amount_picker::after {
+    content: '';
+    position: absolute;
+    width: calc(976px - 56px);
+    height: 2px;
+    background: #72828E;
+    z-index: 0;
+}
+.radio_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 37px;
+    height: 300%;
+    z-index: 120;
+}
+.amount_picker input[type="radio"] {
+    -webkit-appearance:none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    outline:none;
+    background-color: #FFEE2E;
+   
+}
+.radio_wrap  input[type='radio']:hover {
+    box-shadow:0 0 5px 0px orange inset;
+    width: 25px;
+    height: 25px;
+    
+  }
+ .radio_wrap input[type='radio']:before  {
+    content:'';
+    display:block;
+    width:100%;
+    height:100%;
+      
+    border-radius:50%;    
+  }
+
+  
+  .radio_wrap   input[type='radio']:checked:before {
+    background: orange;
+  }
+  .radio_wrap  input[type='radio']:checked ~ label{
+    color:#FFEE2E !important;
+  }
