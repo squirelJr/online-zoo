@@ -5,6 +5,7 @@ box-sizing: border-box;
 position: relative;
 overflow-x: scroll;
 box-sizing: border-box;
+margin-trim: trim;
 
 }
 .watch{
@@ -40,7 +41,7 @@ box-sizing: border-box;
     
 }
 .header{
-    position:  fixed;
+    position:  sticky;
   width: 1600px;
   z-index: 100;
     
@@ -66,6 +67,9 @@ Height:22px;
     list-style: none;
     width: 60%;
 
+}
+.burger{
+    display: none;
 }
 .buttonWo{
 width:30%;
@@ -177,6 +181,9 @@ font-weight: 400;
 font-size: 16px;
 line-height: 140%;
 }
+#gorillaNew{
+    display: none;
+}
 .article1Text1{
 width:465px;
 margin:0px;
@@ -229,7 +236,10 @@ line-height: 120%;
     Width:16px;
 Height:8px;
 }
-.left,.right{
+.arrowsWrap{
+    display:none;
+}
+.left,.right, .leftArrow, .rightArrow{
     width: 62px;
     height: 62px;
     border-radius: 50%;
@@ -245,6 +255,7 @@ Height:8px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    box-sizing: border-box;
     align-content: space-around;
 }
 .animalDesc{
@@ -334,13 +345,13 @@ animation-timing-function: linear;
     align-items: center;
     justify-content: center;
     position: relative;
-
+    box-sizing: border-box;
     margin-top:180px;
    
 }
 .palm{
     position: absolute;
-    background-image: url("../../assets /images/palm_foto (1).png");
+    background-image: url("../../assets/images/palm_foto (1).png");
     background-size: contain;
     background-repeat: no-repeat;
     Width:880px;
@@ -355,7 +366,7 @@ z-index: -1;
   height: 275px;
   right: 0px;
   bottom: 0px;
-  background-image: url("../../assets /images/strelitzia\ 1\ \(2\).png");
+  background-image: url("../../assets/images/strelitzia\ 1\ \(2\).png");
   background-size: contain;
   background-repeat: no-repeat;
 
@@ -546,17 +557,33 @@ align-items: center;
     width: 90%;
 }
 .Tcard{
-    display: flex;
+   
     height: 391px;
     width: 268px;
    
     border-radius: 20px;
     
     flex-direction: column;
- 
+    background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+    linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+
     background-color: #F1F3F2;
     border-radius: 5px;
+    padding: 2px;
 
+
+}
+.TcardBackground{
+    width:100%;
+    height: 100%;
+    display: flex;
+   
+    
+    flex-direction: column;
+    
+ 
+    background-color: #F1F3F2;
+    
 
 }
 .Tparagraph{
@@ -770,9 +797,705 @@ a:hover{
   color:#F9804B;
 }
 
-
+/* 
 .cardImg:hover{
     
+} */
+
+@media only screen and (max-width:1000px) {
+    .header{
+        width:1000px;
+    }
+    body{
+        width:1000px;
+    }
+    .thirdColumn{
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .palm{
+        width: 386px;
+height: 202px;
+
+    }
+    .strelitzia{
+        width: 241px;
+height: 180px;
+    }
+    .nav{
+        padding: 0px 30px;
+    }
+    .navList{
+        width:70%;
+    }
+    
+    .watch{
+width:1000px;
+height: 548px;
+    }
+    .circle{
+        width:367px;
+        height:367px;
+        top:69px;
+        right: 190px;
+    }
+    .buttonWo {
+        width: 400px;
+        height: 430px;
+        position: absolute;
+        top:100px;
+        left: 470px;
+        
+    }
+    .h1Div {
+        width:400px;
+        height:320px;
+        
+    }
+    .text {
+font-size: 85px;
+    }
+    .watchOnline{
+        margin-left:50px;
+
+    }
+    .section1{
+        width: 1000px;
+        padding: 0px 30px;
+    }
+    .bambooCap{
+        width:455px;
+        height:408px;
+    }
+    .article1{
+   width:454px;
+   height:427px;
 }
+
+.flowerImg{
+    display: none;
+}
+.Card{
+    width:295px;
+    height:355px;
+}
+.cardImg{
+    width:100%;
+}
+.arrowsWrap{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 37%;
+}
+.left, .right{
+display: none;
+}
+.animalsWrapper{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 30px;
+}
+.animalsCards{
+width: 100%;
+}
+.animals{
+    width:1000px;
+}
+.pink{
+    width:1000px;
+    height:876px;
+    padding: 30px 30px 50px 30px;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+.pinkP{
+   WIDTH:780px;
+}
+.pinkH32{
+    margin:0px;
+}
+.testimonials{
+    width:1000px;
+}
+.testimonContent{
+    width:1000px;
+}
+#testimonialId{
+    display: none;
+}
+.buttonTestimonial{
+    align-self: flex-start;
+}
+.footer{
+    width:1000px;
+    height:443px;
+    justify-content: space-between;
+    padding: 40px 30px  50px 30px;
+
+}
+.Email{
+    display: flex;
+    flex-direction: row;
+}
+.watchOnline{
+    padding:0px;
+    margin:0px;
+    align-self: flex-start;
+}
+.SecondColumn{
+ width:700px;
+ position: absolute;
+ align-items: center;
+bottom: 30px;
+padding-left: 321px;
+width: fit-content;
+}
+.navList{
+    padding: 0px;
+    width: 340px;
+}
+#footerDesignId2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: flex-end;
+    position:absolute;
+    left:740px;
+}
+.donateNav{
+    display: none;
+  width:0px;
+}
+}
+@media only screen and (max-width:640px) {
+    body{
+        width:640px;
+    }
+    
+    
+    .header{
+        width: 640px;
+        height: 34px;
+    }
+    .nav{
+        height: 34px;
+    }
+    .watch{
+width:640px;
+height:373px;
+    }
+    .circle {
+        width:237px;
+        height:237px;
+        position: absolute;
+        top:44px;
+        right:100px;
+    }
+    .petStoryA{
+        margin: 0px;
+        padding: 0px;
+        height: 30px;
+        width: 47px;
+    }
+    .petStoryLogo{
+        width:47px;
+        display: flex;
+     line-height: 14.75px;
+    font-Size:12.29px
+    }
+    .strelitzia{
+        width: 175px;
+height: 131px;
+    }
+    .palm{
+        width: 385px;
+height: 202px;
+    }
+    .navList{
+        display: none;
+    }
+    .desinedBy{
+        display: none;
+    }
+    .buttonWo{
+       
+      
+        display: flex;
+      
+        width: 90%;
+    position: unset;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 95%;
+    }
+.h1Div{
+    width: 255.64px;
+height: 204.38px;
+align-self: flex-end;
+margin-top: 0px;
+}
+    .text {
+        width: 255.64px;
+height: 204.38px;
+left: calc(50% - 255.64px/2 + 176.76px);
+top: 82.04px;
+font-style: normal;
+font-weight: 700;
+font-size: 54.2894px;
+text-transform: uppercase;
+
+    }
+    .watchOnline{
+align-self: flex-start;
+    }
+    .section1{
+        width:640px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    }
+    .bambooCap{
+     display: none;
+    }
+    .animals{
+        width:640px;
+    }
+    .animalsWrapper{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+    .burger{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      width:20px;
+      height: 10px;
+    }
+    .burger hr{
+        width: 18px;
+        height:1px;
+        background-color:white;
+        margin: 0px;
+    }
+    .navList{
+        display: none;
+    }
+    .Card{
+        width: 45%;
+        height: 332px;
+    }
+    .cardImg{
+        width: 285px;
+    }
+    #twoToed,#SlothIcon, #penguins{
+        display: none;
+    }
+    #gorilla{
+        display: none;
+    }
+    #gorillaNew{
+        display:flex;
+        flex-direction: column;
+    }
+    .pink{
+        width:640px;
+        padding: 50px 0px;
+    }
+.content{
+    width: 640PX;
+    padding: 0px;
+    }
+    .pinkH3{
+        font-size: 42px;
+        width: 405px;
+height: 50px;
+    }
+    .pinkH4{
+        width: 600PX;
+        height: 52PX;
+        font-size: 22px;
+    }
+    .pinkP{
+        width: 600PX;
+        font-size: 16px;
+    }
+    .pinkImages{
+        width: 600PX;
+    }
+    .pinkBorder{
+        width: 168PX;
+        min-height: 168PX;
+    }
+    .pinkH32{
+        font-size: 36px;
+    }
+    .testimonContent{
+        width: 640px;
+        justify-self: center;
+        justify-content: space-around;
+  
+        
+    }
+    .Tcard{
+        width: 100%;
+       height: 108px;
+       border-radius: 20px;
+    padding: 2px;
+      
+    }
+   .TcardBackground{
+    padding: 5px 0px 0px 5px ;
+    border-radius: 20px;
+    box-sizing: border-box;
+   }
+    .Tparagraph{
+        padding: 0px;
+        font-size: 15px;
+    }
+    .tetimonialCards{
+   width: 93%;
+  justify-content: space-between;
+   display: flex;
+   flex-direction: column;
+   height: 55%
+
+    }
+    .testimonialsH3{
+        text-align: center;
+       margin-bottom: 0px;
+    }
+    .scrollmenu{
+        display: none;
+    }
+    .feedbackbtn{
+        border-radius: 0px;
+    }
+    .flowerImg{
+        display: block;
+    }
+    .TcardHead{
+       justify-content: flex-start;
+    }
+  .leaf{
+    display: block;
+    width:150px;
+    height:150px;
+  }
+  .footer{
+    width:640px;
+    height: 282px;
+    display: grid;
+    grid-template: repeat(4,1fr)/repeat(2,1fr);
+    padding: 13px 20px;
+    box-sizing: border-box;
+  }
+  .subscribe, .emailBtn{
+   display: none;
+  }
+  .footerNav{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+  }
+  .SecondColumn{
+    padding: 0px;
+    grid-area: 4/1/5/2;
+  }
+  .thirdColumn{
+    grid-area: 4/2/5/2;
+  }
+  .linkWrap {
+    grid-area: 1/4/span3/4;
+    place-items: end;
+}
+.footerLinks a{
+    display: none;
+}
+.footerLinks{
+    width:unset;
+}
+.testimonials{
+    width:640px;
+}
+.firstColumn{
+    display: grid;
+    width: 100%;
+    grid-template: repeat(4,1fr)/repeat(2,1fr);
+    grid-area: 1/1/span2/span2;
+}
+
+.footBtn{
+    grid-area: 3/1/3/span2;
+}
+.footerNav{
+    margin:2px;
+}
+.footerDesign{
+    grid-area: 3/2/4/2;
+    position: inherit;
+}
+.arrowPink{
+    display: none;
+}
+}
+@media only screen and (max-width:320px){
+    body{
+      width:max-content !important;
+    }
+    main{
+        width:max-content;
+    }
+    .header{
+        width:320px;
+    }
+    .navList{
+        display: none;
+    }
+    .watch{
+        width:320px;
+        height: 187px;
+    }
+    .nav{
+        padding: 2px 10px;
+    }
+    .circle{
+        width:120px;
+        height:120px;
+        top:54px;
+        right:50px;
+    }
+    .text{
+       font-size: 21px;
+       width:128px;
+       height:102px;
+    }
+    .h1Div{
+        width:128px;
+        height:102px;
+        
+    }
+    .buttonWo{
+        height: 328px;
+        justify-content: center;
+    }
+    .watchOnline{
+        margin: 15px 10px 0px 10px;
+    }
+    .section1{
+        box-sizing: border-box;
+        width: 320px;
+        justify-content: flex-start;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-top: 90px;
+        height: 420px;
+    }
+    .article1{
+        width:320px;
+    }
+    .article1H2{
+        height: 58px;
+        width:300px;
+        font-size: 24px;
+    }
+    .article1Text1{
+        width:297px;
+        height: 63px;
+    }
+.article1H3{
+    height: 29px;
+    font-size: 24px;
+}
+.article1Text{
+    height: max-content;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.flowerImg{
+    width: 105px;
+    height: 217px;
+    right: -60px;
+    top: 31px;
+}
+.animals{
+    width:320px;
+    box-sizing: border-box;
+    height:max-content;
+    margin-top: 71px
+}
+.animalsWrapper{
+width:320px;
+flex-direction: column;
+box-sizing: border-box;
+flex-wrap: wrap;
+height:max-content;
+padding: 0px;
+}
+.animalsCards{
+    box-sizing: border-box;
+display: flex;
+flex-direction: column;
+width:320px;
+height:max-content;
+}
+.arrowsWrap{
+    display: none;
+}
+.Card{
+    width: 285px;
+height: 332px;
+}
+.arrowsWrap{
+justify-self: flex-end;
+align-self: center;
+}
+.strelitzia{
+    width: 85px;
+height: 71px;
+}
+.palm{
+    width: 138px;
+height: 72px;
+}
+.pink{
+    width:320px;
+Height:1082px;
+box-sizing: border-box;
+}
+.content{
+    width:300px;
+    height:1040px;
+}
+.pinkH3{
+    width: 232px;
+    height: 29px;
+    font-size: 24px;
+}
+.pinkH4{
+    height: 66px;
+    width:300px;
+    font-size: 18px;
+}
+.pinkH32{
+    width: 139px;
+height: 29px;
+font-size: 24px;
+}
+.pinkP{
+    display: none;
+}
+.pinkImages{
+    height:max-content;
+    width:320px;
+    flex-direction: column;
+}
+
+.testimonials{
+    width:320px;
+}
+.testimonContent{
+    width:320px;
+}
+.Tcard{
+height: 109px;
+width:299px;
+}
+.Theaders{
+    font-size: 16px;
+}
+.Tcard{
+    padding:0px;
+}
+.testimonContent{
+    width:320px;
+}
+.feedbackbtn{
+    width: 240px;
+    margin-left: 40px;
+    font-size: 16px;
+    
+}
+.leaf{
+    width: 77.21px;
+height: 75.81px;
+}
+.footer{
+    width:320px;
+    height:334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box
+}
+.logo{
+    width: 128px;
+height: 23px;
+
+}
+.petStoryb{
+order:1;
+}
+.linkWrap{
+    width:200px;
+    height:26px;
+    flex-direction: row;
+    align-items: center;
+    order:2;
+}
+.footBtn{
+    order:3;
+}
+
+.footerDesign{
+    grid-area: 3/2/4/2;
+    width: 215px;
+    font-size: 15px;
+}
+.thirdColumn{
+    margin:0px;
+    width: 278px;
+    order: 4;
+    display: flex;
+    margin-bottom: auto;
+}
+.firstColumn{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.footerNav{
+    display: flex;
+    flex-direction: row;
+    width:280px;
+}
+  .SecondColumn{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    width: 280px;
+    order: 5;
+  }
+.br{
+    display: none;
+}
+.nav{
+        padding-right: 28px;
+}
+}
+
 
 
