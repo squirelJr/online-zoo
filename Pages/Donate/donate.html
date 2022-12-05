@@ -11,14 +11,19 @@
     <header class="header">
         <nav class="nav">
             <div class="list">
-                <h1 class="petStoryA"><a href="" >PerStory <br />Online</a></h1>
+                <h1 class="petStoryA"><a href="../Main/index.html" class="petStoryLogo" >PerStory <br />Online</a></h1>
                 <ul class="navList">
-                    <li><a href="#" id="active">about</a></li>
+                    <li><a href="../Main/index.html">about</a></li>
                     <li><a href="">Map</a></li>
                     <li><a href="">Zoos</a></li>
-                    <li><a href="./donate.html">Donate</a></li>
+                    <li><a href="./donate.html" id="active">Donate</a></li>
                     <li><a href="">Contact us</a></li>
                 </ul>
+            </div>
+            <div class="burger">
+                <hr>
+                <hr>
+                <hr>
             </div>
             <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="desinedBy">Designed by ©</a>
         </nav>
@@ -42,7 +47,41 @@
                     <p class="xX">x</p>
                     <img src="../../assets/images/panda_widget1.png" alt="პანდა" class="panda4">
                 </div>
-                <div class="slider">
+                <div class="amount_picker">
+                    <div class="radio_wrap">
+                        <input type="radio" name="amount" id="amount1" />
+                        <label for="amount1" >$5000</label>
+                    </div>
+                    <div class="radio_wrap">
+                        <input type="radio" name="amount" id="amount2" />
+                        <label for="amount2">$2000</label>
+                    </div>
+                    <div class="radio_wrap">
+                        <input type="radio" name="amount" id="amount3" checked="checked" />
+                        <label for="amount3">$1000</label>
+                    </div>
+                    <div class="radio_wrap">
+                        <input type="radio" name="amount" id="amount4" />
+                        <label for="amount4">$500</label>
+                    </div>
+                    <div class="radio_wrap">
+                        <input type="radio" name="amount" id="amount5" />
+                        <label for="amount5">$250</label>
+                    </div>
+                    <div class="radio_wrap">
+                        <input type="radio" name="amount" id="amount6" />
+                        <label for="amount6">$100</label>
+                    </div>
+                    <div class="radio_wrap">
+                        <input type="radio" name="amount" id="amount7" />
+                        <label for="amount7">$50</label>
+                    </div>
+                    <div class="radio_wrap">
+                        <input type="radio" name="amount" id="amount8" />
+                        <label for="amount8">$25</label>
+                    </div>
+                </div>
+                <!-- <div class="slider">
                     <div class="dotWrap">
                         <div class="dot"></div>
                         <div class="dot"></div>
@@ -53,7 +92,7 @@
                         <div class="dot"></div>
                         <div class="dot"></div>
                     </div>
-                <input type="range" step="8" min="5000" max="25"  class="range">
+                <input type="range" step="7" class="range">
                 <div class="dolars">
                     <p class="dolar">$5000</p>
                     <p class="dolar">$2000</p>
@@ -65,15 +104,15 @@
                     <p class="dolar">$25</p>
                 </div>
             </div>
-            <input type="number" class="amount" placeholder="Another amount"><span class="sign">$</span>
+            <input type="number" class="amount" placeholder="Another amount"><span class="sign">$</span> -->
             <div class="inputCheckbox">
                 <div class="monthly1">
-                    <input type="radio" class="checkbox" id="monthLy">
+                    <input type="radio" name="check" class="checkbox" id="monthLy">
                 <label for="monthLy">monthly</label>
                 </div>
                 
                 <div class="once2">
-                    <input type="radio" class="checkbox" id="once1">
+                    <input type="radio" name="check"  class="checkbox" id="once1">
                     <label for="once1">once</label>
                 </div>
                
@@ -87,8 +126,8 @@
     </main>
     <footer class="footer">
         <div class="top firstColumn" >
-            <div class="logo"><a href="" class="petStoryb">PerStory <br />Online</a></div> 
-           <a href="./donate.html"><button type="button" class="watchOnline footerBtn" >DONATE FOR VOLUNTEERS</button></a> 
+            <div class="logo"><a href="" class="petStoryb">PerStory <br  class="br"/>Online</a></div> 
+           <a href="./donate.html" class="footBtn" ><button type="button" class="watchOnline footerBtn" >DONATE FOR VOLUNTEERS</button></a> 
             <div class="linkWrap">
             <div class="footerLinks">
                 <div class="Ficon"><img src="../../assets/images/Fb.png" alt=""></div>
@@ -112,21 +151,22 @@
         </div>
         <div class="SecondColumn">
             <ul class="navList footerNav">
-                <li><a href="">about</a></li>
-                <li><a href="">Map</a></li>
-                <li><a href="">Zoos</a></li>
-                <li><a href="">Donate</a></li>
+                <li><a href="#" id="active" >about</a></li>
+                <li><a href="" >Map</a></li>
+                <li><a href="" >Zoos</a></li>
                 <li><a href="">Contact us</a></li>
             </ul>
         </div>
         <div class="thirdColumn">
-            <div>
+            <div class="subscribe">
     <h3>Subscribe to our news</h3>
-    <div class="Email"><input type="email" placeholder="Enter your email" class="emailInput" name="" id=""> <button type="submit" class="emailBtn">Submit</button></div>
+        <div class="Email"><input type="email" placeholder="Enter your email" class="emailInput" name="" id=""> 
+            <button type="submit" class="emailBtn">Submit</button></div>
+    
     </div>
+    
     <p class="footerDesign">Designed by Alisa Samborskaya <br> ©RSSchool & ©Yem Digital 2021</p>
         </div>
-    
     </footer>
 </body>
 </html>

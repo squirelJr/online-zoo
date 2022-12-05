@@ -12,19 +12,26 @@
 <body>
     <header class="header">
         <nav class="nav">
+           
             <div class="list">
-                <h1 class="petStoryA"><a href="" >PerStory <br />Online</a></h1>
+                <h1 class="petStoryA"><a href="" class="petStoryLogo" >PerStory <br />Online</a></h1>
                 <ul class="navList">
                     <li><a href="#" id="active">about</a></li>
                     <li><a href="">Map</a></li>
                     <li><a href="">Zoos</a></li>
-                    <li><a href="../Donate/donate.html">Donate</a></li>
+                    <li ><a href="./donate.html">Donate</a></li>
                     <li><a href="">Contact us</a></li>
                 </ul>
             </div>
+            <div class="burger">
+                <hr>
+                <hr>
+                <hr>
+            </div>
             <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="desinedBy">Designed by ©</a>
+            
         </nav>
-        
+      
     </header>
 
     <main>
@@ -93,8 +100,8 @@
                         </div>
                     </div>
 
-                    <div class="Card">
-                        <img src="../../assets/images/Rectangle5gorillas (1).png" class="cardImg" alt="Gorillas" />
+                    <div class="Card" id="gorilla">
+                        <img src="../../assets/images/Rectangle 5gorillas (1).png" class="cardImg"   alt="Gorillas" />
                         <div class="animalName">
                             <div class="animalDesc">
                                 <h4>Gorillas</h4>
@@ -106,12 +113,17 @@
                         </div>
                     </div>
 
-                    <div class="Card">
-                        <img src="../../assets/images/Rectangle5two-toed sloth.png"  class="cardImg" alt="Two-toed Sloth" />
+                    <div class="arrowsWrap">
+                        <div class="leftArrow"><img class="arrows" src="../../assets/images/Vectorleft.png" alt="leftArrow"></div>
+                        <div class="rightArrow"><img src="../../assets/images/Vectorarrow.png" alt="rightarrow" class="arrows"></div>
+                    </div>
+
+                    <div class="Card" id="gorillaNew">
+                        <img src="../../assets/images/Rectangle 5gorillas (1).png" class="cardImg"   alt="Gorillas" />
                         <div class="animalName">
                             <div class="animalDesc">
-                                <h4>Two-toed Sloth</h4>
-                                <h6>Mesoamerica, South America</h6>
+                                <h4>Gorillas</h4>
+                                <h6>Native to Congo</h6>
                             </div>
                             <div class="iconVegan">
                                 <img src="../../assets/images/Vectorbannana.png" alt="bnn" />
@@ -119,8 +131,21 @@
                         </div>
                     </div>
 
-                    <div class="Card">
-                        <img src="../../assets/images/Rectangle5cheetahs (1).png" class="cardImg" alt="cheetahs" />
+                    <div class="Card" id="twoToed">
+                        <img src="../../assets/images/Rectangle 5two-toed sloth.png"  class="cardImg" alt="Two-toed Sloth" />
+                        <div class="animalName">
+                            <div class="animalDesc">
+                                <h4>Two-toed Sloth</h4>
+                                <h6>Mesoamerica, South America</h6>
+                            </div>
+                            <div class="iconVegan" ID="SlothIcon">
+                                <img src="../../assets/images/Vectorbannana.png" alt="bnn" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="Card" id="cheetahs">
+                        <img src="../../assets/images/Rectangle 5cheetahs (1).png" class="cardImg" alt="cheetahs" />
                         <div class="animalName">
                             <div class="animalDesc">
                                 <h4>cheetahs</h4>
@@ -132,8 +157,8 @@
                         </div>
                     </div>
 
-                    <div class="Card">
-                        <img src="../../assets/images/Rectangle5penguins (1).png" class="cardImg" alt="Penguins" />
+                    <div class="Card" id="penguins">
+                        <img src="../../assets/images/Rectangle 5penguins (1).png" class="cardImg" alt="Penguins" />
                         <div class="animalName">
                             <div class="animalDesc">
                                 <h4>Penguins</h4>
@@ -166,7 +191,7 @@
                     <div class="pinkDesc">Pay with card</div>
                      
                </div> 
-                <img src="../../assets/images/Vectorarrow.png" alt="arrows">
+                <img src="../../assets/images/Vectorarrow.png" alt="arrows" class="arrowPink">
                  <div class="pinkCards">
                     <div class="pinkBorder">
                         <img src="../../assets/images/zoozoo.png" alt="zoo" class="zooImage">
@@ -175,7 +200,7 @@
                          
                 </div>
                 
-                    <img src="../../assets/images/Vectorarrow.png" alt="arrows" >
+                    <img src="../../assets/images/Vectorarrow.png" alt="arrows" class="arrowPink">
                     <div class="pinkCards">
                     <div class="pinkBorder">
                             <img src="../../assets/images/monkey.png" alt="monkey" class="zooImage">
@@ -191,7 +216,9 @@
             <div class="testimonContent">
                 <h3 class="testimonialsH3">testimonials</h3>
         <div class="tetimonialCards">
+            
             <div class="Tcard">
+                <div class="TcardBackground">
                 <div class="TcardHead">
                     <img src="../../assets/images/Vectormichaeljohn.png" alt="Michael">
                     <div class="Theaders">
@@ -204,7 +231,9 @@
                     The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
                 </p>
             </div>
+            </div>
             <div class="Tcard">
+                <div class="TcardBackground">
                 <div class="TcardHead">
                     <img src="../../assets/images/Ellipse 2oscar sambolsky.png" alt="oskar">
                     <div class="Theaders">
@@ -220,9 +249,11 @@ The best online zoo I’ve met. My son delighted very much ljves to watch gouill
 
                 </p>
         </div>
+        </div>
             <div class="Tcard">
+                <div class="TcardBackground">
                 <div class="TcardHead">
-                    <img src="../../assets/images/Ellipse2fredricka michelin.png" alt="fredricka">
+                    <img src="../../assets/images/Ellipse 2fredricka michelin.png" alt="fredricka">
                     <div class="Theaders">
                     <span>Fredericka Michelin</h5> <br>
                     <span>Local Austria•Yesterday</h5>
@@ -234,8 +265,10 @@ The best online zoo I’ve met. My son delighted very much ljves to watch gouill
 The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
 
                 </p>
+                </div>
            </div>
-            <div class="Tcard">
+            <div class="Tcard" id="testimonialId">
+                <div class="TcardBackground">
                 <div class="TcardHead">
                     <img src="../../assets/images/Ellipse 2mila riksha.png" alt="mila">
                     <div class="Theaders">
@@ -248,22 +281,23 @@ The best online zoo I’ve met. My son delighted very much ljves to watch gouill
                     The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
                     
                 </p>
+            </div>
         </div>
         
         </div>
         <div class="scrollmenu"><div class="Progres"></div></div>
-         <a href=""><button  class="feedbackbtn"> leave feedback </button></a> 
+         <a href="" class="buttonTestimonial"><button  class="feedbackbtn"> leave feedback </button></a> 
            
             
             </div>
             <img src="../../assets/images/leav_fotoleave.png" alt="leaf" class="leaf">
         </section>
     </main>
-</body>
+
 <footer class="footer">
     <div class="top firstColumn" >
-        <div class="logo"><a href="" class="petStoryb">PerStory <br />Online</a></div> 
-       <a href="./donate.html"><button type="button" class="watchOnline footerBtn" >DONATE FOR VOLUNTEERS</button></a> 
+        <div class="logo"><a href="" class="petStoryb">PerStory <br  class="br"/>Online</a></div> 
+       <a href="./donate.html" class="footBtn" ><button type="button" class="watchOnline footerBtn" >DONATE FOR VOLUNTEERS</button></a> 
         <div class="linkWrap">
         <div class="footerLinks">
             <div class="Ficon"><img src="../../assets/images/Fb.png" alt=""></div>
@@ -287,21 +321,22 @@ The best online zoo I’ve met. My son delighted very much ljves to watch gouill
     </div>
     <div class="SecondColumn">
         <ul class="navList footerNav">
-            <li><a href="">about</a></li>
-            <li><a href="">Map</a></li>
-            <li><a href="">Zoos</a></li>
-            <li><a href="">Donate</a></li>
+            <li><a href="#" id="active" >about</a></li>
+            <li><a href="" >Map</a></li>
+            <li><a href="" >Zoos</a></li>
             <li><a href="">Contact us</a></li>
         </ul>
     </div>
     <div class="thirdColumn">
-        <div>
+        <div class="subscribe">
 <h3>Subscribe to our news</h3>
-<div class="Email"><input type="email" placeholder="Enter your email" class="emailInput" name="" id=""> <button type="submit" class="emailBtn">Submit</button></div>
+    <div class="Email"><input type="email" placeholder="Enter your email" class="emailInput" name="" id=""> 
+        <button type="submit" class="emailBtn">Submit</button></div>
+
 </div>
+
 <p class="footerDesign">Designed by Alisa Samborskaya <br> ©RSSchool & ©Yem Digital 2021</p>
     </div>
-
 </footer>
-
+</body>
 </html>
