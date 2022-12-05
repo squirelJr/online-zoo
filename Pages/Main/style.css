@@ -1,9 +1,11 @@
+html{
+    overflow-x: hidden;
+}
 body{
     width: 1600px;
     margin: 0 auto;
 box-sizing: border-box;
 position: relative;
-overflow-x: scroll;
 box-sizing: border-box;
 
 }

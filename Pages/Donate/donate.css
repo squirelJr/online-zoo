@@ -3,7 +3,7 @@ body{
     margin: 0 auto;
 box-sizing: border-box;
 position: relative;
-overflow-x: scroll;
+overflow-x: hidden;
 box-sizing: border-box;
 
 }
