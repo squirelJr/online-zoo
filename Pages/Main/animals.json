@@ -1,0 +1,58 @@
+ { "animals": [ 
+    {
+      "id": 0,
+      "img": "../../assets/images/Rectangle 5giant pandas.png",
+      "name": "Giant Pandas",
+      "description": "Native to Southwest China",
+      "food": "../../assets/images/Vectorbannana.png",
+      "backGrnd":"../../assets/images/bamboobannanas.png"
+    },
+    {
+      "id": 1,
+      "img": "../../assets/images/Rectangle 5eagles (1).png",
+      "name": "Eagles",
+      "description": "Native to South America",
+      "food": "../../assets/images/fish_icon.png",
+      "backGrnd":"../../assets/images/steak_icon.png"
+    },
+    {
+      "id": 3,
+      "img": "../../assets/images/Rectangle 5alligator.png",
+      "name": "Alligators",
+      "description": "Native to Southeastern U.S.",
+      "food": "../../assets/images/fish_icon.png",
+      "backGrnd":"../../assets/images/steak_icon.png"
+    },
+    {
+      "id": 4,
+      "img": "../../assets/images/Rectangle 5gorillas (1).png",
+      "name": "Gorillas",
+      "description": "Native to Congo",
+      "food": "../../assets/images/Vectorbannana.png",
+      "backGrnd":"../../assets/images/bamboobannanas.png"
+    },
+    {
+      "id": 5,
+      "img": "../../assets/images/Rectangle 5two-toed sloth.png",
+      "name": "Two-toed Sloth",
+      "description": "Mesoamerica, South America",
+      "food": "../../assets/images/Vectorbannana.png",
+      "backGrnd":"../../assets/images/bamboobannanas.png"
+    },
+    {
+      "id": 6,
+      "img":"../../assets/images/Rectangle 5cheetahs (1).png" ,
+      "name": "Cheetahs",
+      "description": "Native to Africa",
+      "food": "../../assets/images/fish_icon.png",
+      "backGrnd":"../../assets/images/steak_icon.png"
+    },
+    {
+      "id": 7,
+      "img": "../../assets/images/Rectangle 5penguins (1).png",
+      "name": "Penguins",
+      "description": "Native to Antarctica",
+      "food": "../../assets/images/fish_icon.png",
+      "backGrnd":"../../assets/images/steak_icon.png"
+    }
+]}
